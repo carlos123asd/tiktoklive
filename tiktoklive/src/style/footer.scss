@@ -1,0 +1,21 @@
+footer{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    color: rgb(84, 84, 89);
+    & .footerblock{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10%;
+        &__subblock{
+            text-align: left;
+            & span{
+                max-width: max-content;
+                padding:  0px 12px 12px;
+            }
+        }
+    }
+}

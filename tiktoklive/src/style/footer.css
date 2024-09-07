@@ -1,0 +1,22 @@
+footer {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  color: rgb(84, 84, 89);
+}
+footer .footerblock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10%;
+}
+footer .footerblock__subblock {
+  text-align: left;
+}
+footer .footerblock__subblock span {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0px 12px 12px;
+}/*# sourceMappingURL=footer.css.map */

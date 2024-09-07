@@ -1,0 +1,15 @@
+.topbar {
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(143.27deg, rgb(0, 94, 166) 0%, rgb(21, 70, 160) 100%);
+  display: flex;
+  align-items: center;
+}
+.topbar__tit {
+  font-family: "RobotoRegular";
+  font-size: 1em;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-left: 4.5rem;
+}/*# sourceMappingURL=topbar.css.map */

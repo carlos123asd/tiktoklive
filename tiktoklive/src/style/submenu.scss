@@ -1,0 +1,35 @@
+.submenu{
+    font-family: 'OpenSansBold';
+    height: 96px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.04) 0rem 0rem 0.5rem,
+     rgba(0, 0, 0, 0.1) 0rem 0.125rem 1.125rem;
+    &__content{
+        margin-left: 15.5rem;
+        &__menu{
+            height: 1.3125rem;
+            font-size: 1rem;
+            padding: 0.75rem 1rem;
+            min-height: 3rem;
+            min-width: 5.25rem;
+            max-width: 11.5rem;
+            border-radius: 1.5rem;
+            cursor: pointer;
+            background-color: transparent;
+            margin-right: 16px;
+            align-content: center;
+            text-align: center;
+            display: inline-block;
+            &:hover{
+                border: 1px solid rgb(5, 68, 181);
+            }
+        }
+        &--efectactive{
+            -webkit-text-stroke-width:0.0421875rem;
+            color: rgb(5, 68, 181);
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 15px 0px
+        }
+    }
+}

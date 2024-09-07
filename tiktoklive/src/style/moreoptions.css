@@ -1,0 +1,54 @@
+.moreoptions {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.moreoptions h1 {
+  margin-bottom: 20px;
+  font-family: "OpenRegular";
+  color: rgb(0, 20, 53);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.moreoptions__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.moreoptions__content__block {
+  width: 284.85px;
+  height: 62px;
+  display: flex;
+  cursor: pointer;
+}
+.moreoptions__content__block__img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  background-color: rgb(5, 68, 181);
+  -webkit-mask: url("https://www.paypalobjects.com/paypal-ui/icons/v3/svg/invoice.svg") center center no-repeat;
+          mask: url("https://www.paypalobjects.com/paypal-ui/icons/v3/svg/invoice.svg") center center no-repeat;
+}
+.moreoptions__content__block__img2 {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  background-color: rgb(5, 68, 181);
+  -webkit-mask: url("https://www.paypalobjects.com/paypal-ui/icons/v3/svg/donate.svg") center center no-repeat;
+          mask: url("https://www.paypalobjects.com/paypal-ui/icons/v3/svg/donate.svg") center center no-repeat;
+}
+.moreoptions__content__block__txt h3 {
+  color: rgb(0, 20, 53);
+  font-size: 1rem;
+  font-family: "OpenSansBold";
+  line-height: 1.3125rem;
+}
+.moreoptions__content__block__txt p {
+  font-family: "OpenRegular";
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(0, 20, 53);
+}/*# sourceMappingURL=moreoptions.css.map */
