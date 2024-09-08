@@ -34,9 +34,14 @@
   padding-right: 11px;
   border: rgb(84, 93, 104);
 }
-.inputsend__input svg {
+.inputsend__input__img1cleanareainput {
   position: absolute;
   left: 20px;
+}
+.inputsend__input__img2cleanareainput {
+  position: absolute;
+  right: 20px !important;
+  cursor: pointer;
 }
 .inputsend__btn {
   width: 6rem;

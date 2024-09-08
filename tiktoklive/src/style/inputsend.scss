@@ -32,9 +32,14 @@
             padding-right: 11px;
             border:rgb(84, 93, 104);
         }
-        & svg{
+        &__img1cleanareainput{
             position: absolute;
             left: 20px;
+        }
+        &__img2cleanareainput{
+            position: absolute;
+            right: 20px !important;
+            cursor: pointer;
         }
     }
     &__btn{

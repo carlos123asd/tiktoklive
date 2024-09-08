@@ -7,10 +7,10 @@ export default function Nav(){
                 <img src={icon} alt="icon PayPal" className="contentNav__icono" />
                 <div className="contentNav__menu">
                     <ul>
-                        <li>Start</li>
+                        <li>Home</li>
                         <li>Activity</li>
-                        <li>Pay & receive payments</li>
-                        <li>Marketing for growth</li>
+                        <li>Pay & Get Paid</li>
+                        <li>Marketing for Growth</li>
                         <li>Business Tools</li>
                     </ul>
                 </div>

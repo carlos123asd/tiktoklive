@@ -34,4 +34,5 @@ nav .contentNav__menu ul li {
   padding: 0px 15px;
   width: -moz-max-content;
   width: max-content;
+  cursor: pointer;
 }/*# sourceMappingURL=nav.css.map */
